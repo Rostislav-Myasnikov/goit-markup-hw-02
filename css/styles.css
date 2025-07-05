@@ -9,14 +9,26 @@ main {
 .logo {
   text-decoration: none;
   color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .web {
   color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 li {
   list-style-type: none;
+  font-family: "Raleway", sans-serif;
 }
 
 .studio,
@@ -24,6 +36,10 @@ li {
 .contacts {
   text-decoration: none;
   color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
 }
 
 .studio:hover,
@@ -42,6 +58,11 @@ li {
 .tel {
   text-decoration: none;
   color: #2e2f42;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", sans-serif;
 }
 
 .mail:hover,
@@ -56,11 +77,21 @@ li {
 
 .title {
   color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .button {
   color: #ffffff;
   background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
 }
 
 .button:hover {
@@ -70,6 +101,12 @@ li {
 
 p {
   color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 footer {
@@ -79,8 +116,54 @@ footer {
 .logo-footer {
   color: #f4f4fd;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer-info {
   color: #f4f4fd;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.footer-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 4%;
+  line-height: 14px;
+}
+
+.team-info {
+  text-align: center;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.main-screen {
+  text-align: center;
 }
