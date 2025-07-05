@@ -197,3 +197,12 @@ h3 {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
+.team-item {
+  background-color: #ffffff;
+}
+
+.portfolio-title {
+  text-transform: capitalize;
+  color: #2e2f42;
+}
