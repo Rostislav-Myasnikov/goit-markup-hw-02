@@ -69,13 +69,15 @@ li {
 }
 
 .address-item:hover,
-.address-item:focus {
+.address-item:focus,
+.address-item:active {
   color: #404bbf;
   text-decoration: none;
 }
 
 .main-screen {
   background-color: #2e2f42;
+  text-align: center;
 }
 
 .title {
@@ -163,13 +165,10 @@ h3 {
 
 .team-info {
   text-align: center;
+  background-color: #f4f4fd;
 }
 
 .portfolio {
-  text-align: center;
-}
-
-.main-screen {
   text-align: center;
 }
 
@@ -179,4 +178,17 @@ h3 {
 
 .address {
   font-style: normal;
+}
+
+.about-us-title {
+  color: #2e2f42;
+}
+
+.team-text {
+  font-size: 16px;
+}
+
+.title-team {
+  text-transform: capitalize;
+  color: #2e2f42;
 }
