@@ -1,5 +1,11 @@
-main {
+body {
   color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+}
+
+a,
+.button {
+  cursor: pointer;
 }
 
 .header {
