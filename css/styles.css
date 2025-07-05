@@ -1,6 +1,7 @@
 body {
-  color: #2e2f42;
+  color: #434455;
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
 }
 
 a,
@@ -14,7 +15,7 @@ a,
 
 .logo {
   text-decoration: none;
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -23,8 +24,8 @@ a,
   text-transform: uppercase;
 }
 
-.web {
-  color: #4d5ae5;
+.studio-logo {
+  color: #2e2f42;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -37,9 +38,7 @@ li {
   font-family: "Raleway", sans-serif;
 }
 
-.studio,
-.portfolio,
-.contacts {
+.list-item {
   text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
@@ -48,9 +47,8 @@ li {
   letter-spacing: 0.02em;
 }
 
-.studio:hover,
-.portfolio:hover,
-.contacts:hover {
+.list-item:hover,
+.list-item:focus {
   color: #404bbf;
   text-decoration: none;
 }
@@ -60,10 +58,9 @@ li {
   text-decoration: underline;
 }
 
-.mail,
-.tel {
+.address-item {
   text-decoration: none;
-  color: #2e2f42;
+  color: #434455;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -71,8 +68,7 @@ li {
   font-family: "Roboto", sans-serif;
 }
 
-.mail:hover,
-.tel:hover {
+.address-item:hover {
   color: #404bbf;
   text-decoration: none;
 }
@@ -100,7 +96,8 @@ li {
   letter-spacing: 0.04em;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -172,4 +169,12 @@ h3 {
 
 .main-screen {
   text-align: center;
+}
+
+.studio-footer {
+  color: #f4f4fd;
+}
+
+.address {
+  font-style: normal;
 }
