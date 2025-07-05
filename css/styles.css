@@ -68,7 +68,8 @@ li {
   font-family: "Roboto", sans-serif;
 }
 
-.address-item:hover {
+.address-item:hover,
+.address-item:focus {
   color: #404bbf;
   text-decoration: none;
 }
@@ -149,6 +150,7 @@ h3 {
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .footer-info {
@@ -156,7 +158,7 @@ h3 {
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 4%;
-  line-height: 14px;
+  line-height: 1.5;
 }
 
 .team-info {
